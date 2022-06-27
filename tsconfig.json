@@ -11,6 +11,16 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
+    "paths": {
+      "ng-persian-datepicker": [
+        "dist/ng-persian-datepicker/ng-persian-datepicker",
+        "dist/ng-persian-datepicker"
+      ],
+      "ngx-persian-datepicker": [
+        "dist/ngx-persian-datepicker/ngx-persian-datepicker",
+        "dist/ngx-persian-datepicker"
+      ]
+    },
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
