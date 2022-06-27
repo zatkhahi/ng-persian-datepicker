@@ -3,10 +3,10 @@ import {MonthCalendarComponent} from './month-calendar.component';
 import {UtilsService} from '../common/services/utils/utils.service';
 import {CalendarNavComponent} from '../calendar-nav/calendar-nav.component';
 import {MonthCalendarService} from './month-calendar.service';
-import * as momentNs from 'jalali-moment';
+import moment from 'jalali-moment';
 import {Moment} from 'jalali-moment';
 import {IMonth} from './month.model';
-const moment = momentNs;
+// const moment = momentNs;
 
 describe('Component: MonthCalendarComponent', () => {
   let component: MonthCalendarComponent;

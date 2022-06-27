@@ -1,6 +1,6 @@
 import {inject, TestBed} from '@angular/core/testing';
 import {UtilsService} from './utils.service';
-import * as momentNs from 'jalali-moment';
+import moment from 'jalali-moment';
 import {IDate} from '../../models/date.model';
 
 const moment = momentNs;

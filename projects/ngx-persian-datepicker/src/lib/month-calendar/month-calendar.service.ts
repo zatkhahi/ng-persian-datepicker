@@ -1,10 +1,10 @@
 import {Injectable} from '@angular/core';
-import * as momentNs from 'jalali-moment';
+import moment from 'jalali-moment';
 import {Moment} from 'jalali-moment';
 import {UtilsService} from '../common/services/utils/utils.service';
 import {IMonth} from './month.model';
 import {IMonthCalendarConfig, IMonthCalendarConfigInternal} from './month-calendar-config';
-const moment = momentNs;
+// const moment = momentNs;
 
 @Injectable()
 export class MonthCalendarService {

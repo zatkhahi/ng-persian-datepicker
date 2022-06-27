@@ -1,10 +1,10 @@
 import {inject, TestBed} from '@angular/core/testing';
 import {DayCalendarService} from './day-calendar.service';
-import * as momentNs from 'jalali-moment';
+import moment from 'jalali-moment';
 import {Moment} from 'jalali-moment';
 import {UtilsService} from '../common/services/utils/utils.service';
 import {IDayCalendarConfigInternal} from './day-calendar-config.model';
-const moment = momentNs;
+//const moment = momentNs;
 
 describe('Service: Calendar', () => {
   beforeEach(() => {

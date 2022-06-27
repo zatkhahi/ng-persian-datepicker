@@ -1,5 +1,5 @@
-import * as momentNs from 'jalali-moment';
-const moment = momentNs;
+import moment from 'jalali-moment';
+//const moment = momentNs;
 import {IDate} from '../common/models/date.model';
 import {DomHelper} from '../common/services/dom-appender/dom-appender.service';
 import {UtilsService} from '../common/services/utils/utils.service';

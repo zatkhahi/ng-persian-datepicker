@@ -1,12 +1,12 @@
 import {inject, TestBed} from '@angular/core/testing';
 import {DayTimeCalendarService} from './day-time-calendar.service';
-import * as momentNs from 'jalali-moment';
+import moment from 'jalali-moment';
 import {UtilsService} from '../common/services/utils/utils.service';
 import {DayCalendarService} from '../day-calendar/day-calendar.service';
 import {TimeSelectService} from '../time-select/time-select.service';
 import {IDayCalendarConfigInternal} from '../day-calendar/day-calendar-config.model';
 
-const moment = momentNs;
+//const moment = momentNs;
 
 const DAY_FORMAT = 'YYYYMMDD';
 const TIME_FORMAT = 'HH:mm:ss';
