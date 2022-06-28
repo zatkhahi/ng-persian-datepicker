@@ -44,9 +44,14 @@
     [displayDate]="_currentDateView"
     [theme]="theme"
     (onSelect)="monthSelected($event)"
-    (onNavHeaderBtnClick)="toggleCalendarMode(CalendarMode.Day)"
+    (onNavHeaderBtnClick)="toggleCalendarMode(CalendarMode.Year)"
     (onLeftNav)="onMonthCalendarLeftClick($event)"
     (onRightNav)="onMonthCalendarRightClick($event)"
     (onLeftSecondaryNav)="onMonthCalendarSecondaryLeftClick($event)"
     (onRightSecondaryNav)="onMonthCalendarSecondaryRightClick($event)">
 </dp-month-calendar>
+
+<dp-year-calendar
+*ngIf="currentCalendarMode === CalendarMode.Year">
+
+</dp-year-calendar>

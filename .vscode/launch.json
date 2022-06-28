@@ -7,7 +7,13 @@
       "request": "launch",
       "type": "chrome",
       "url": "http://localhost:4200",
-      "webRoot": "${workspaceFolder}"
+      "webRoot": "${workspaceFolder}",
+      "sourceMapPathOverrides": {
+        "meteor://💻app/*": "${workspaceFolder}/*",
+        "webpack:///./~/*": "${workspaceFolder}/node_modules/*",
+        "webpack://?:*/*": "${workspaceFolder}/*",
+        "webpack://projects/ng-persian-datepicker/src/lib/*": "${workspaceFolder}/projects/ngx-persian-datepicker/src/lib/*"
+      }
     }
   ]
 }

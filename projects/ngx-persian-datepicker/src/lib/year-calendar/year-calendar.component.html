@@ -1,0 +1,31 @@
+<div class="dp-year-calendar-container">
+    <dp-calendar-nav
+    [label]="navLabel"
+    [showLeftNav]="true"
+    [showLeftSecondaryNav]="false"
+    [showRightNav]="true"
+    [showRightSecondaryNav]="false"
+    [isLabelClickable]="false"
+    [showGoToCurrent]="false"
+    
+    (onLeftNav)="onLeftNavClick()"
+    
+    (onRightNav)="onRightNavClick()"
+
+    (onLabelClick)="toggleCalendarMode()"
+    >
+</dp-calendar-nav>
+
+<div class="dp-calendar-wrapper" [ngClass]="{'rtl': true}">
+    <div class="dp-months-row" *ngFor="let yearRow of years">
+      <button type="button"
+              class="dp-calendar-year"
+              *ngFor="let year of yearRow"
+              [attr.data-date]="year"
+              [ngClass]="''"
+              (click)="yearClicked(year)"
+              [innerText]="year">
+      </button>
+    </div>
+  </div>
+</div>
