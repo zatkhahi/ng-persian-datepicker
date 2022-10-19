@@ -142,5 +142,7 @@
       }
     }    
   },
-  "defaultProject": "ngx-persian-datepicker"
+  "cli": {
+    "analytics": false
+  }
 }

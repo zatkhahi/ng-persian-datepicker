@@ -16,6 +16,9 @@
         "dist/ng-persian-datepicker/ng-persian-datepicker",
         "dist/ng-persian-datepicker"
       ],
+      "ngx-farsi-datepicker": [
+        "dist/ngx-farsi-datepicker"
+      ],
       "ngx-persian-datepicker": [
         "dist/ngx-persian-datepicker/ngx-persian-datepicker",
         "dist/ngx-persian-datepicker"

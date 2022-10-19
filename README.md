@@ -1,4 +1,4 @@
-# Angular 13 Farsi Date Picker (Upgraded from ng2-jalali-date-picker)
+# Angular 14 Farsi Date Picker (Upgraded from ng2-jalali-date-picker)
 This is a configurable jalali (persian, khorshidi, shamsi) date-picker build with Angular 13 applications and uses [jalali-moment](https://github.com/fingerpich/moment-jalaali) as its dependency.
 [DEMO](https://fingerpich.github.io/jalali-angular-datepicker/)
 

@@ -1,5 +1,5 @@
 # Angular 13 Farsi Date Picker (Upgraded from ng2-jalali-date-picker)
-انتخاب گر تاریخ شمسی در انگولار 13
+انتخاب گر تاریخ شمسی در انگولار 14
 [دمو](https://fingerpich.github.io/jalali-angular-datepicker/)
 
 ## تصاویر
